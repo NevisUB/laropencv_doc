@@ -73,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,6 +101,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <a href="classlarcv_1_1_image_cluster_manager.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for larcv::ImageClusterManager:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classlarcv_1_1_image_cluster_manager.png" usemap="#larcv::ImageClusterManager_map" alt=""/>
+  <map id="larcv::ImageClusterManager_map" name="larcv::ImageClusterManager_map">
+<area href="classlarcv_1_1laropencv__base.html" title="Very base class of all everything else defined in this framework. " alt="larcv::laropencv_base" shape="rect" coords="0,0,171,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -116,30 +125,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3a7fa888251c723e36a1a21827ec16b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#ac3a7fa888251c723e36a1a21827ec16b">Reset</a> ()</td></tr>
 <tr class="memdesc:ac3a7fa888251c723e36a1a21827ec16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears attributes except for _name.  <a href="#ac3a7fa888251c723e36a1a21827ec16b">More...</a><br/></td></tr>
 <tr class="separator:ac3a7fa888251c723e36a1a21827ec16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0699c523a7d0315c853c2f980ffceef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a0699c523a7d0315c853c2f980ffceef6">AddAlg</a> (<a class="el" href="classlarcv_1_1_image_cluster_base.html">ImageClusterBase</a> *alg)</td></tr>
-<tr class="memdesc:a0699c523a7d0315c853c2f980ffceef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm adder: returns a unique identifier with which you can retrieve back.  <a href="#a0699c523a7d0315c853c2f980ffceef6">More...</a><br/></td></tr>
-<tr class="separator:a0699c523a7d0315c853c2f980ffceef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff3888ac32fe6ad70ae0dc452fa2839b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlarcv_1_1_image_cluster_base.html">ImageClusterBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#aff3888ac32fe6ad70ae0dc452fa2839b">GetAlg</a> (const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> id) const </td></tr>
-<tr class="memdesc:aff3888ac32fe6ad70ae0dc452fa2839b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm getter via unique identifier.  <a href="#aff3888ac32fe6ad70ae0dc452fa2839b">More...</a><br/></td></tr>
+<tr class="memdesc:aff3888ac32fe6ad70ae0dc452fa2839b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm adder: returns a unique identifier with which you can retrieve back.  <a href="#aff3888ac32fe6ad70ae0dc452fa2839b">More...</a><br/></td></tr>
 <tr class="separator:aff3888ac32fe6ad70ae0dc452fa2839b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9230a507a5c70ffd4cafaa69f4d5d99e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a9230a507a5c70ffd4cafaa69f4d5d99e">Configure</a> (const std::string config_file=&quot;&quot;)</td></tr>
-<tr class="memdesc:a9230a507a5c70ffd4cafaa69f4d5d99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read-in configuration file from the argument &amp; enforce configurations to algorithms.  <a href="#a9230a507a5c70ffd4cafaa69f4d5d99e">More...</a><br/></td></tr>
-<tr class="separator:a9230a507a5c70ffd4cafaa69f4d5d99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a7494d69b7652a4206fe19bed60ed8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlarcv_1_1_image_cluster_base.html">ImageClusterBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a21a7494d69b7652a4206fe19bed60ed8">GetAlg</a> (const std::string name) const </td></tr>
+<tr class="memdesc:a21a7494d69b7652a4206fe19bed60ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm getter via unique identifier (string name)  <a href="#a21a7494d69b7652a4206fe19bed60ed8">More...</a><br/></td></tr>
+<tr class="separator:a21a7494d69b7652a4206fe19bed60ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d189d3ce7302cc8e7070616eb6fdb19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a7d189d3ce7302cc8e7070616eb6fdb19">GetAlgID</a> (const std::string name) const </td></tr>
+<tr class="memdesc:a7d189d3ce7302cc8e7070616eb6fdb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm ID getter via unique identifier (string name)  <a href="#a7d189d3ce7302cc8e7070616eb6fdb19">More...</a><br/></td></tr>
+<tr class="separator:a7d189d3ce7302cc8e7070616eb6fdb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474829eabfc5445c92e1b4148470a6c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a474829eabfc5445c92e1b4148470a6c8">Configure</a> (const ::fcllite::PSet &amp;main_cfg)</td></tr>
+<tr class="memdesc:a474829eabfc5445c92e1b4148470a6c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read-in configuration object &amp; enforce configurations to algorithms.  <a href="#a474829eabfc5445c92e1b4148470a6c8">More...</a><br/></td></tr>
+<tr class="separator:a474829eabfc5445c92e1b4148470a6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb85c6290aac19e5e1224b8775b04c3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#adb85c6290aac19e5e1224b8775b04c3e">Process</a> (const ::cv::Mat &amp;img, const <a class="el" href="classlarcv_1_1_image_meta.html">larcv::ImageMeta</a> &amp;meta)</td></tr>
 <tr class="memdesc:adb85c6290aac19e5e1224b8775b04c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute algorithms to construct clusters + corresponding meta data.  <a href="#adb85c6290aac19e5e1224b8775b04c3e">More...</a><br/></td></tr>
 <tr class="separator:adb85c6290aac19e5e1224b8775b04c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a776fb6feaaa91996d0d887ab67bebd70"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classlarcv_1_1_image_meta.html">ImageMeta</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a776fb6feaaa91996d0d887ab67bebd70">MetaData</a> (const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> alg_id) const </td></tr>
 <tr class="memdesc:a776fb6feaaa91996d0d887ab67bebd70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor to a specific meta data constructed by an algorithm (via algorithm id)  <a href="#a776fb6feaaa91996d0d887ab67bebd70">More...</a><br/></td></tr>
 <tr class="separator:a776fb6feaaa91996d0d887ab67bebd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae151824372b0ebd6f7e8845ed141969c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacelarcv.html#a2b78a4d24e2034af40ea2084717087ee">Contour_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#ae151824372b0ebd6f7e8845ed141969c">Cluster</a> (const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> alg_id, const <a class="el" href="namespacelarcv.html#a5be6a8d1f8b387d52ed6790605e001b2">ClusterID_t</a> cluster_id) const </td></tr>
-<tr class="memdesc:ae151824372b0ebd6f7e8845ed141969c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor to a specific cluster constructed by an algorithm (via algorithm + cluster id)  <a href="#ae151824372b0ebd6f7e8845ed141969c">More...</a><br/></td></tr>
-<tr class="separator:ae151824372b0ebd6f7e8845ed141969c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f89a11bfb33113c13048e93918a8211"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacelarcv.html#a5ee5d70a7a6a661eefb7a8d3e8cf6627">ContourArray_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a3f89a11bfb33113c13048e93918a8211">Clusters</a> (const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> alg_id) const </td></tr>
-<tr class="memdesc:a3f89a11bfb33113c13048e93918a8211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor to a set of clusters constructed by an algorithm (via algorithm id)  <a href="#a3f89a11bfb33113c13048e93918a8211">More...</a><br/></td></tr>
-<tr class="separator:a3f89a11bfb33113c13048e93918a8211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ca15cbe9a01dec68aa4dc07949cd90"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacelarcv.html#a728fbe54f4de0cc56f2e5dd61552ed2d">Contour_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a52ca15cbe9a01dec68aa4dc07949cd90">Cluster</a> (const <a class="el" href="namespacelarcv.html#a5be6a8d1f8b387d52ed6790605e001b2">ClusterID_t</a> cluster_id, const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> alg_id=<a class="el" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648">kINVALID_ALGO_ID</a>) const </td></tr>
+<tr class="memdesc:a52ca15cbe9a01dec68aa4dc07949cd90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor to a specific cluster constructed by an algorithm (via algorithm + cluster id)  <a href="#a52ca15cbe9a01dec68aa4dc07949cd90">More...</a><br/></td></tr>
+<tr class="separator:a52ca15cbe9a01dec68aa4dc07949cd90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2795d1b2bcbf8db89b7b78c924893ab6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacelarcv.html#a5ee5d70a7a6a661eefb7a8d3e8cf6627">ContourArray_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a2795d1b2bcbf8db89b7b78c924893ab6">Clusters</a> (const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> alg_id=<a class="el" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648">kINVALID_ALGO_ID</a>) const </td></tr>
+<tr class="memdesc:a2795d1b2bcbf8db89b7b78c924893ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor to a set of clusters constructed by an algorithm (via algorithm id)  <a href="#a2795d1b2bcbf8db89b7b78c924893ab6">More...</a><br/></td></tr>
+<tr class="separator:a2795d1b2bcbf8db89b7b78c924893ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a328326d82b580fc6be40c9e1c6c0685c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacelarcv.html#a5be6a8d1f8b387d52ed6790605e001b2">ClusterID_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a328326d82b580fc6be40c9e1c6c0685c">ClusterID</a> (const double x, const double y, <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> alg_id=<a class="el" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648">kINVALID_ALGO_ID</a>) const </td></tr>
 <tr class="memdesc:a328326d82b580fc6be40c9e1c6c0685c"><td class="mdescLeft">&#160;</td><td class="mdescRight">For a specified algorithm, find a cluster that contains coordinate (x,y). By default "last algorithm" is used.  <a href="#a328326d82b580fc6be40c9e1c6c0685c">More...</a><br/></td></tr>
 <tr class="separator:a328326d82b580fc6be40c9e1c6c0685c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52891942f4db6749d91ddcbc5a66ae4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a52891942f4db6749d91ddcbc5a66ae4e">Report</a> () const </td></tr>
+<tr class="memdesc:a52891942f4db6749d91ddcbc5a66ae4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report process summary.  <a href="#a52891942f4db6749d91ddcbc5a66ae4e">More...</a><br/></td></tr>
+<tr class="separator:a52891942f4db6749d91ddcbc5a66ae4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3b84c8e5f60c27019664b3f0def655"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacelarcv.html#a265a67f80120a2b51ca9edaf5587ac4e">larcv::logger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1laropencv__base.html#abc3b84c8e5f60c27019664b3f0def655">logger</a> () const </td></tr>
+<tr class="memdesc:abc3b84c8e5f60c27019664b3f0def655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logger getter.  <a href="#abc3b84c8e5f60c27019664b3f0def655">More...</a><br/></td></tr>
+<tr class="separator:abc3b84c8e5f60c27019664b3f0def655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7479ca74b91e80564cab0652df31b33a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1laropencv__base.html#a7479ca74b91e80564cab0652df31b33a">set_verbosity</a> (::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8">larcv::msg::Level_t</a> level)</td></tr>
+<tr class="memdesc:a7479ca74b91e80564cab0652df31b33a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verbosity level.  <a href="#a7479ca74b91e80564cab0652df31b33a">More...</a><br/></td></tr>
+<tr class="separator:a7479ca74b91e80564cab0652df31b33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -153,6 +174,10 @@ Private Attributes</h2></td></tr>
 &lt; <a class="el" href="classlarcv_1_1_image_cluster_base.html">larcv::ImageClusterBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d">_alg_v</a></td></tr>
 <tr class="memdesc:a5835a378511fb60dd208833b65d1ac8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of algorithms to be executed.  <a href="#a5835a378511fb60dd208833b65d1ac8d">More...</a><br/></td></tr>
 <tr class="separator:a5835a378511fb60dd208833b65d1ac8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de83d39a7eebd5c6b9c1c1ee6f7de9d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <br class="typebreak"/>
+<a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">larcv::AlgorithmID_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a7de83d39a7eebd5c6b9c1c1ee6f7de9d">_alg_m</a></td></tr>
+<tr class="memdesc:a7de83d39a7eebd5c6b9c1c1ee6f7de9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of algorithm instance name to ID.  <a href="#a7de83d39a7eebd5c6b9c1c1ee6f7de9d">More...</a><br/></td></tr>
+<tr class="separator:a7de83d39a7eebd5c6b9c1c1ee6f7de9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7f29ebec6f4ed6749a86f72bc47916c"><td class="memItemLeft" align="right" valign="top">std::vector<br class="typebreak"/>
 &lt; <a class="el" href="namespacelarcv.html#a5ee5d70a7a6a661eefb7a8d3e8cf6627">larcv::ContourArray_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c">_clusters_v</a></td></tr>
 <tr class="memdesc:ac7f29ebec6f4ed6749a86f72bc47916c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of resulting clusters per algorithms.  <a href="#ac7f29ebec6f4ed6749a86f72bc47916c">More...</a><br/></td></tr>
@@ -163,6 +188,18 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae391cc7d1e3535d448e5dab0b9c90424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlarcv_1_1_image_meta.html">larcv::ImageMeta</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424">_orig_meta</a></td></tr>
 <tr class="memdesc:ae391cc7d1e3535d448e5dab0b9c90424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Original meta data.  <a href="#ae391cc7d1e3535d448e5dab0b9c90424">More...</a><br/></td></tr>
 <tr class="separator:ae391cc7d1e3535d448e5dab0b9c90424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e997c52f3225a739847efd6661ab72"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a11e997c52f3225a739847efd6661ab72">_profile</a></td></tr>
+<tr class="memdesc:a11e997c52f3225a739847efd6661ab72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean flag to measure process time + report.  <a href="#a11e997c52f3225a739847efd6661ab72">More...</a><br/></td></tr>
+<tr class="separator:a11e997c52f3225a739847efd6661ab72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8407415aa03421c4ef9e5334b55be84d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlarcv_1_1_watch.html">Watch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a8407415aa03421c4ef9e5334b55be84d">_watch</a></td></tr>
+<tr class="memdesc:a8407415aa03421c4ef9e5334b55be84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stopwatch.  <a href="#a8407415aa03421c4ef9e5334b55be84d">More...</a><br/></td></tr>
+<tr class="separator:a8407415aa03421c4ef9e5334b55be84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2f435b13f8ec06b18490c758e14816"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#acc2f435b13f8ec06b18490c758e14816">_process_count</a></td></tr>
+<tr class="memdesc:acc2f435b13f8ec06b18490c758e14816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process counter (cumulative)  <a href="#acc2f435b13f8ec06b18490c758e14816">More...</a><br/></td></tr>
+<tr class="separator:acc2f435b13f8ec06b18490c758e14816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e2568cf3c404517e59f2859fb7d96f2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlarcv_1_1_image_cluster_manager.html#a3e2568cf3c404517e59f2859fb7d96f2">_process_time</a></td></tr>
+<tr class="memdesc:a3e2568cf3c404517e59f2859fb7d96f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process time (cumulative)  <a href="#a3e2568cf3c404517e59f2859fb7d96f2">More...</a><br/></td></tr>
+<tr class="separator:a3e2568cf3c404517e59f2859fb7d96f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to execute a chain of algorithms to a given image input. </p>
@@ -172,7 +209,7 @@ Private Attributes</h2></td></tr>
  the returning clusters' coordinate. After execution of algorithms it stores resulting clusters (many per algorithm) <br/>
  and a meta data (one per algorithm) that are accessible via unique id (<a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd" title="larcv::ImageClusterBase inherit algorithm&#39;s unique identifier within larcv::ClusterImageManager ...">larcv::AlgorithmID_t</a> and <a class="el" href="namespacelarcv.html#a5be6a8d1f8b387d52ed6790605e001b2" title="A cluster&#39;s unique identifier within larcv::ClusterImageManager. ">larcv::ClusterID_t</a>).<br/>
  At the execution of algorithms, a user must provide both image (cv::Mat) and image meta data (<a class="el" href="classlarcv_1_1_image_meta.html" title="Borrowed from larcaffe (see larcaffe::ImageMeta) ">larcv::ImageMeta</a>).<br/>
- Each cluster is represented as a 2D contour (<a class="el" href="namespacelarcv.html#a2b78a4d24e2034af40ea2084717087ee" title="A 2D contour type. ">larcv::Contour_t</a>), and the class provides a utility method to identify <br/>
+ Each cluster is represented as a 2D contour (<a class="el" href="namespacelarcv.html#a728fbe54f4de0cc56f2e5dd61552ed2d" title="A 2D contour type. ">larcv::Contour_t</a>), and the class provides a utility method to identify <br/>
  a cluster that contains a specific 2D point (x,y) in original coordinate system. This is possible via provided <br/>
  meta data for an original image that contains image origin (left bottom corner) in the original coordinate, the width <br/>
  and height of an image, etc. + updated meta data from each algorithm execution. </p>
@@ -182,9 +219,6 @@ Private Attributes</h2></td></tr>
 <a class="anchor" id="a9a0c2f24c68d5bd8e00447aa1962f09d"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">larcv::ImageClusterManager::ImageClusterManager </td>
@@ -194,19 +228,22 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Default constructor. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00039">39</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      : <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5456f7276996b0dd9eaffaf94fe17b27" title="Name identifier: used to fetch a block of configuration parameters. ">_name</a>(name)</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      , <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a>(<span class="keyword">false</span>)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {}</div>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00010">10</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+
+<p>References <a class="el" href="laropencv__logger_8h_source.html#l00029">LARCV_DEBUG</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00021">Reset()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    : <a class="code" href="classlarcv_1_1laropencv__base.html#a8b9c5b2f29540edbc4974b0a5f521df1" title="Default constructor. ">laropencv_base</a>(name)</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    , <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5456f7276996b0dd9eaffaf94fe17b27" title="Name identifier: used to fetch a block of configuration parameters. ">_name</a>(name)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    , <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a>(<span class="keyword">false</span>)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    , <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a11e997c52f3225a739847efd6661ab72" title="Boolean flag to measure process time + report. ">_profile</a>(<span class="keyword">true</span>)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;start&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac3a7fa888251c723e36a1a21827ec16b" title="Clears attributes except for _name. ">Reset</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;end&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -233,55 +270,27 @@ Private Attributes</h2></td></tr>
 
 <p>Default destructor. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00045">45</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00042">42</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a0699c523a7d0315c853c2f980ffceef6"></a>
+<a class="anchor" id="a52ca15cbe9a01dec68aa4dc07949cd90"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> larcv::ImageClusterManager::AddAlg </td>
+          <td class="memname">const <a class="el" href="namespacelarcv.html#a728fbe54f4de0cc56f2e5dd61552ed2d">Contour_t</a> &amp; larcv::ImageClusterManager::Cluster </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classlarcv_1_1_image_cluster_base.html">ImageClusterBase</a> *&#160;</td>
-          <td class="paramname"><em>alg</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Algorithm adder: returns a unique identifier with which you can retrieve back. </p>
-
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00023">23</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
-
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00074">_alg_v</a>, and <a class="el" href="_image_cluster_manager_8h_source.html#l00072">_configured</a>.</p>
-<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">if</span>(!alg) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Cannot add nullptr!&quot;</span>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a>) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Cannot add algo after configured! (call Reset())&quot;</span>);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.push_back(alg);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size() - 1);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="ae151824372b0ebd6f7e8845ed141969c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="namespacelarcv.html#a2b78a4d24e2034af40ea2084717087ee">Contour_t</a> &amp; larcv::ImageClusterManager::Cluster </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a>&#160;</td>
-          <td class="paramname"><em>alg_id</em>, </td>
+          <td class="paramtype">const <a class="el" href="namespacelarcv.html#a5be6a8d1f8b387d52ed6790605e001b2">ClusterID_t</a>&#160;</td>
+          <td class="paramname"><em>cluster_id</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacelarcv.html#a5be6a8d1f8b387d52ed6790605e001b2">ClusterID_t</a>&#160;</td>
-          <td class="paramname"><em>cluster_id</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a>&#160;</td>
+          <td class="paramname"><em>alg_id</em> = <code><a class="el" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648">kINVALID_ALGO_ID</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -293,14 +302,14 @@ Private Attributes</h2></td></tr>
 
 <p>Accessor to a specific cluster constructed by an algorithm (via algorithm + cluster id) </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00099">99</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00174">174</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8cxx_source.html#l00106">Clusters()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; clusters = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a3f89a11bfb33113c13048e93918a8211" title="Accessor to a set of clusters constructed by an algorithm (via algorithm id) ">Clusters</a>(alg_id);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span>(cluster_id &gt;= clusters.size()) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid cluster ID requested&quot;</span>);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> clusters[cluster_id];</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  }</div>
+<p>References <a class="el" href="_image_cluster_manager_8cxx_source.html#l00181">Clusters()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; clusters = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a2795d1b2bcbf8db89b7b78c924893ab6" title="Accessor to a set of clusters constructed by an algorithm (via algorithm id) ">Clusters</a>(alg_id);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">if</span>(cluster_id &gt;= clusters.size()) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid cluster ID requested&quot;</span>);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">return</span> clusters[cluster_id];</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -336,48 +345,52 @@ Private Attributes</h2></td></tr>
 
 <p>For a specified algorithm, find a cluster that contains coordinate (x,y). By default "last algorithm" is used. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00113">113</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00188">188</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00076">_clusters_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00078">_meta_v</a>, <a class="el" href="_image_cluster_types_8h_source.html#l00020">larcv::kINVALID_ALGO_ID</a>, and <a class="el" href="_image_cluster_types_8h_source.html#l00022">larcv::kINVALID_CLUSTER_ID</a>.</p>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  {</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="namespacelarcv.html#a5be6a8d1f8b387d52ed6790605e001b2" title="A cluster&#39;s unique identifier within larcv::ClusterImageManager. ">ClusterID_t</a> result = <a class="code" href="namespacelarcv.html#ab17490bd3b1c03af9c323745d904295e" title="A constant to signify, in particular, an invalid larcv::ClusterID_t. ">kINVALID_CLUSTER_ID</a>;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.empty()) <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">if</span>(alg_id == <a class="code" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648" title="A constant to signify, in particular, an invalid larcv::AlgorithmID_t. ">kINVALID_ALGO_ID</a>) alg_id = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.size() - 1;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; clusters = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>[alg_id];</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; meta = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>[alg_id];</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; origin = meta.origin();</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">if</span>(x &lt; origin.x || x &gt; (origin.x + meta.width())) <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">if</span>(y &lt; origin.y || x &gt; (origin.y + meta.height())) <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keyword">auto</span> pt = ::cv::Point2d((x-origin.x)/meta.pixel_width(),(y-origin.y)/meta.pixel_width());</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> <span class="keywordtype">id</span>=0; <span class="keywordtype">id</span>&lt;clusters.size(); ++id) {</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; c = clusters[id];</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      </div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      <span class="keywordtype">double</span> inside = ::cv::pointPolygonTest(c,pt,<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      <span class="keywordflow">if</span>(inside &lt; 0) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      result = id;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  }</div>
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00081">_clusters_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00083">_meta_v</a>, <a class="el" href="_image_cluster_types_8h_source.html#l00020">larcv::kINVALID_ALGO_ID</a>, and <a class="el" href="_image_cluster_types_8h_source.html#l00022">larcv::kINVALID_CLUSTER_ID</a>.</p>
+<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <a class="code" href="namespacelarcv.html#a5be6a8d1f8b387d52ed6790605e001b2" title="A cluster&#39;s unique identifier within larcv::ClusterImageManager. ">ClusterID_t</a> result = <a class="code" href="namespacelarcv.html#ab17490bd3b1c03af9c323745d904295e" title="A constant to signify, in particular, an invalid larcv::ClusterID_t. ">kINVALID_CLUSTER_ID</a>;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.empty()) <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">if</span>(alg_id == <a class="code" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648" title="A constant to signify, in particular, an invalid larcv::AlgorithmID_t. ">kINVALID_ALGO_ID</a>) alg_id = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.size() - 1;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; clusters = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>[alg_id];</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; meta = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>[alg_id];</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; origin = meta.origin();</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keywordflow">if</span>(x &lt; origin.x || x &gt; (origin.x + meta.width())) <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">if</span>(y &lt; origin.y || x &gt; (origin.y + meta.height())) <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="comment">//std::cout&lt;&lt;&quot;Inspecting a point &quot;&lt;&lt;x&lt;&lt;&quot; : &quot;&lt;&lt;y&lt;&lt;&quot; ... &quot;;</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keyword">auto</span> pt = ::cv::Point2d((x-origin.x)/meta.pixel_width(),(y-origin.y)/meta.pixel_height());</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="comment">//std::cout&lt;&lt;pt.x&lt;&lt;&quot; : &quot;&lt;&lt;pt.y&lt;&lt;std::endl;</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> <span class="keywordtype">id</span>=0; <span class="keywordtype">id</span>&lt;clusters.size(); ++id) {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; c = clusters[id];</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;      </div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      <span class="keywordtype">double</span> inside = ::cv::pointPolygonTest(c,pt,<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <span class="keywordflow">if</span>(inside &lt; 0) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      result = id;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a3f89a11bfb33113c13048e93918a8211"></a>
+<a class="anchor" id="a2795d1b2bcbf8db89b7b78c924893ab6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -385,7 +398,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">const <a class="el" href="namespacelarcv.html#a5ee5d70a7a6a661eefb7a8d3e8cf6627">ContourArray_t</a> &amp; larcv::ImageClusterManager::Clusters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a>&#160;</td>
-          <td class="paramname"><em>alg_id</em>)</td><td></td>
+          <td class="paramname"><em>alg_id</em> = <code><a class="el" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648">kINVALID_ALGO_ID</a></code>)</td><td></td>
           <td> const</td>
         </tr>
       </table>
@@ -393,50 +406,75 @@ Private Attributes</h2></td></tr>
 
 <p>Accessor to a set of clusters constructed by an algorithm (via algorithm id) </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00106">106</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00181">181</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00074">_alg_v</a>, and <a class="el" href="_image_cluster_manager_8h_source.html#l00076">_clusters_v</a>.</p>
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00081">_clusters_v</a>, and <a class="el" href="_image_cluster_types_8h_source.html#l00020">larcv::kINVALID_ALGO_ID</a>.</p>
 
-<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00099">Cluster()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  {</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">if</span>(alg_id &lt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.size()) <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>[alg_id];</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">if</span>(alg_id &gt;= <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size()) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid algorithm ID requested&quot;</span>);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Execution of an algorithm not yet done!&quot;</span>);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  }</div>
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00174">Cluster()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">if</span>(alg_id &lt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.size()) <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>[alg_id];</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">if</span>(alg_id == <a class="code" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648" title="A constant to signify, in particular, an invalid larcv::AlgorithmID_t. ">kINVALID_ALGO_ID</a> &amp;&amp; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.size()) <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.back();</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Execution of an algorithm not yet done!&quot;</span>);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a9230a507a5c70ffd4cafaa69f4d5d99e"></a>
+<a class="anchor" id="a474829eabfc5445c92e1b4148470a6c8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void larcv::ImageClusterManager::Configure </td>
           <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>config_file</em> = <code>&quot;&quot;</code>)</td><td></td>
+          <td class="paramtype">const ::fcllite::PSet &amp;&#160;</td>
+          <td class="paramname"><em>main_cfg</em>)</td><td></td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read-in configuration file from the argument &amp; enforce configurations to algorithms. </p>
+<p>Read-in configuration object &amp; enforce configurations to algorithms. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00031">31</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">60</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00074">_alg_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00072">_configured</a>, and <a class="el" href="_image_cluster_manager_8h_source.html#l00048">Name()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    ::fcllite::ConfigManager cfg_mgr(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a608d8c79cebb4fca98b80ff194c066c6" title="Name accessor, used to identify a block of configuration parameters via fhicl. ">Name</a>());</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    cfg_mgr.AddCfgFile(cfg_file);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; main_cfg = cfg_mgr.Config();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">auto</span>&amp; ptr : <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      ptr-&gt;Configure(main_cfg.get_pset(ptr-&gt;Name()));</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a>=<span class="keyword">true</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  }</div>
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00079">_alg_m</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00077">_alg_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00075">_configured</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00087">_profile</a>, <a class="el" href="_image_cluster_factory_8h_source.html#l00056">larcv::ImageClusterFactory::get()</a>, <a class="el" href="laropencv__logger_8h_source.html#l00034">LARCV_CRITICAL</a>, <a class="el" href="laropencv__logger_8h_source.html#l00029">LARCV_DEBUG</a>, <a class="el" href="laropencv__base_8h_source.html#l00043">larcv::laropencv_base::logger()</a>, and <a class="el" href="laropencv__base_8h_source.html#l00047">larcv::laropencv_base::set_verbosity()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;start&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a11e997c52f3225a739847efd6661ab72" title="Boolean flag to measure process time + report. ">_profile</a> = main_cfg.get&lt;<span class="keywordtype">bool</span>&gt;(<span class="stringliteral">&quot;Profile&quot;</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    this-&gt;<a class="code" href="classlarcv_1_1laropencv__base.html#a7479ca74b91e80564cab0652df31b33a" title="Verbosity level. ">set_verbosity</a>((<a class="code" href="namespacelarcv_1_1msg.html#a7cf76745a74cc742b66062d0da3b13bf">msg::Level_t</a>)(main_cfg.get&lt;<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>&gt;(<span class="stringliteral">&quot;Verbosity&quot;</span>,(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>)(this-&gt;logger().level()))));</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    std::vector&lt;std::string&gt; instance_type_v = main_cfg.get&lt;std::vector&lt;std::string&gt; &gt;(<span class="stringliteral">&quot;AlgoType&quot;</span>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    std::vector&lt;std::string&gt; instance_name_v = main_cfg.get&lt;std::vector&lt;std::string&gt; &gt;(<span class="stringliteral">&quot;AlgoName&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span>(instance_type_v.size() != instance_name_v.size()) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <a class="code" href="group___core.html#ga6f82c22bb96fb9eb53adb1ec7ced9f06">LARCV_CRITICAL</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;AlgoType and AlgoName config parameters have different length! &quot;</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                  &lt;&lt; <span class="stringliteral">&quot;(&quot;</span> &lt;&lt; instance_type_v.size() &lt;&lt; <span class="stringliteral">&quot; vs. &quot;</span> &lt;&lt; instance_name_v.size() &lt;&lt; <span class="stringliteral">&quot;)&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.clear();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a7de83d39a7eebd5c6b9c1c1ee6f7de9d" title="Map of algorithm instance name to ID. ">_alg_m</a>.clear();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i=0; i&lt;instance_type_v.size(); ++i) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; name = instance_name_v[i];</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; type = instance_type_v[i];</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a7de83d39a7eebd5c6b9c1c1ee6f7de9d" title="Map of algorithm instance name to ID. ">_alg_m</a>.find(name) != <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a7de83d39a7eebd5c6b9c1c1ee6f7de9d" title="Map of algorithm instance name to ID. ">_alg_m</a>.end()) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="group___core.html#ga6f82c22bb96fb9eb53adb1ec7ced9f06">LARCV_CRITICAL</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;Duplicate algorithm name found!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Duplicate algorithm name found!&quot;</span>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a7de83d39a7eebd5c6b9c1c1ee6f7de9d" title="Map of algorithm instance name to ID. ">_alg_m</a>[name] = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.push_back(<a class="code" href="classlarcv_1_1_image_cluster_factory.html#a2ca4dba97166636225ad9d00d030f54c" title="Static sharable instance getter. ">ImageClusterFactory::get</a>().create(type,name));</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">auto</span>&amp; ptr : <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      ptr-&gt;Profile(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a11e997c52f3225a739847efd6661ab72" title="Boolean flag to measure process time + report. ">_profile</a>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      ptr-&gt;set_verbosity(this-&gt;<a class="code" href="classlarcv_1_1laropencv__base.html#abc3b84c8e5f60c27019664b3f0def655" title="Logger getter. ">logger</a>().level());</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      ptr-&gt;Configure(main_cfg.get_pset(ptr-&gt;Name()));</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a>=<span class="keyword">true</span>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;end&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -454,15 +492,104 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Algorithm getter via unique identifier. </p>
+<p>Algorithm adder: returns a unique identifier with which you can retrieve back. </p>
+<p>Algorithm getter via unique identifier (AlgorithmID_t) </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00017">17</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00032">32</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00074">_alg_v</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">id</span> &gt;= <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size()) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid algorithm ID requested...&quot;</span>);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>[id];</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  }</div>
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00077">_alg_v</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00038">GetAlg()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">id</span> &gt;= <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size()) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid algorithm ID requested...&quot;</span>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>[id];</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a21a7494d69b7652a4206fe19bed60ed8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlarcv_1_1_image_cluster_base.html">ImageClusterBase</a> * larcv::ImageClusterManager::GetAlg </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>name</em>)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algorithm getter via unique identifier (string name) </p>
+
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00038">38</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+
+<p>References <a class="el" href="_image_cluster_manager_8cxx_source.html#l00032">GetAlg()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00043">GetAlgID()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#aff3888ac32fe6ad70ae0dc452fa2839b" title="Algorithm adder: returns a unique identifier with which you can retrieve back. ">GetAlg</a>(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a7d189d3ce7302cc8e7070616eb6fdb19" title="Algorithm ID getter via unique identifier (string name) ">GetAlgID</a>(name));</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7d189d3ce7302cc8e7070616eb6fdb19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">AlgorithmID_t</a> larcv::ImageClusterManager::GetAlgID </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>name</em>)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algorithm ID getter via unique identifier (string name) </p>
+
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00043">43</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00079">_alg_m</a>, and <a class="el" href="_image_cluster_types_8h_source.html#l00020">larcv::kINVALID_ALGO_ID</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00038">GetAlg()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">auto</span> iter = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a7de83d39a7eebd5c6b9c1c1ee6f7de9d" title="Map of algorithm instance name to ID. ">_alg_m</a>.find(name);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span>(iter == <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a7de83d39a7eebd5c6b9c1c1ee6f7de9d" title="Map of algorithm instance name to ID. ">_alg_m</a>.end()) <span class="keywordflow">return</span> <a class="code" href="namespacelarcv.html#a330f707fbebbe2928e583662d90c8648" title="A constant to signify, in particular, an invalid larcv::AlgorithmID_t. ">kINVALID_ALGO_ID</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">return</span> (*iter).second;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abc3b84c8e5f60c27019664b3f0def655"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespacelarcv.html#a265a67f80120a2b51ca9edaf5587ac4e">larcv::logger</a>&amp; larcv::laropencv_base::logger </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Logger getter. </p>
+
+<p>Definition at line <a class="el" href="laropencv__base_8h_source.html#l00043">43</a> of file <a class="el" href="laropencv__base_8h_source.html">laropencv_base.h</a>.</p>
+
+<p>References <a class="el" href="laropencv__base_8h_source.html#l00052">larcv::laropencv_base::_logger</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">Configure()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    { <span class="keywordflow">return</span> *<a class="code" href="classlarcv_1_1laropencv__base.html#afc261b4e8c2902550d53cae14bdc71da" title="logger ">_logger</a>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -482,14 +609,14 @@ Private Attributes</h2></td></tr>
 
 <p>Accessor to a specific meta data constructed by an algorithm (via algorithm id) </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00092">92</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00167">167</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00078">_meta_v</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">if</span>(alg_id &lt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.size()) <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>[alg_id];</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span>(alg_id &gt;= <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.size()) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid algorithm ID requested&quot;</span>);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Execution of an algorithm not yet done!&quot;</span>);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00083">_meta_v</a>.</p>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">if</span>(alg_id &lt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.size()) <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>[alg_id];</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">if</span>(alg_id &gt;= <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.size()) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid algorithm ID requested&quot;</span>);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Execution of an algorithm not yet done!&quot;</span>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -516,12 +643,12 @@ Private Attributes</h2></td></tr>
 
 <p>Name accessor, used to identify a block of configuration parameters via fhicl. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00048">48</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00045">45</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00070">_name</a>.</p>
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00073">_name</a>.</p>
 
-<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00031">Configure()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5456f7276996b0dd9eaffaf94fe17b27" title="Name identifier: used to fetch a block of configuration parameters. ">_name</a>; }</div>
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00099">Report()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5456f7276996b0dd9eaffaf94fe17b27" title="Name identifier: used to fetch a block of configuration parameters. ">_name</a>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -551,54 +678,94 @@ Private Attributes</h2></td></tr>
 
 <p>Execute algorithms to construct clusters + corresponding meta data. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00045">45</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">112</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00074">_alg_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00076">_clusters_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00072">_configured</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00078">_meta_v</a>, and <a class="el" href="_image_cluster_manager_8h_source.html#l00080">_orig_meta</a>.</p>
-<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a>) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Must Configure() before Process()!&quot;</span>);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span>(meta.num_pixel_row()!=img.rows)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Provided metadata has incorrect # horizontal pixels w.r.t. image!&quot;</span>);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span>(meta.num_pixel_column()!=img.rows)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Provided metadata has incorrect # vertical pixels w.r.t. image!&quot;</span>);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a> = meta;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.clear();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.clear();</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.reserve(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size());</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.reserve(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size());</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">auto</span>&amp; alg_ptr : <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>) {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">if</span>(!alg_ptr) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid algorithm pointer!&quot;</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <span class="keywordflow">if</span>(alg_ptr == _alg_v.front()) {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="namespacelarcv.html#a5ee5d70a7a6a661eefb7a8d3e8cf6627" title="A set of 2D contours. ">ContourArray_t</a> clusters;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.push_back(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.emplace_back(alg_ptr-&gt;Process(clusters,img,<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.back()));</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      }<span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; clusters = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.back();</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.push_back(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a>);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.emplace_back(alg_ptr-&gt;Process(clusters,img,<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.back()));</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <span class="comment">// Sanity check on meta data</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; result_meta = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.back();</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="keywordflow">if</span>(result_meta.height() &gt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a>.height()) {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Return meta data by &quot;</span> &lt;&lt; alg_ptr-&gt;Name() &lt;&lt; <span class="stringliteral">&quot; exceeds original image height!&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>();</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      <span class="keywordflow">if</span>(result_meta.width() &gt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a>.width()) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Return meta data by &quot;</span> &lt;&lt; alg_ptr-&gt;Name() &lt;&lt; <span class="stringliteral">&quot; exceeds original image width!&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>();</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div>
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00077">_alg_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00081">_clusters_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00075">_configured</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00083">_meta_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00085">_orig_meta</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00091">_process_count</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00093">_process_time</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00089">_watch</a>, <a class="el" href="laropencv__logger_8h_source.html#l00029">LARCV_DEBUG</a>, <a class="el" href="_watch_8h_source.html#l00033">larcv::Watch::Start()</a>, and <a class="el" href="_watch_8h_source.html#l00042">larcv::Watch::WallTime()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;start&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a>) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Must Configure() before Process()!&quot;</span>);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span>(meta.num_pixel_row()!=img.rows)</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Provided metadata has incorrect # horizontal pixels w.r.t. image!&quot;</span>);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">if</span>(meta.num_pixel_column()!=img.cols)</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Provided metadata has incorrect # vertical pixels w.r.t. image!&quot;</span>);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a8407415aa03421c4ef9e5334b55be84d" title="Stopwatch. ">_watch</a>.<a class="code" href="classlarcv_1_1_watch.html#abf1cf8d453303516eb4f76fd36235b18" title="Start stop watch. ">Start</a>();</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a> = meta;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.clear();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.clear();</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.reserve(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size());</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.reserve(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.size());</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">auto</span>&amp; alg_ptr : <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      </div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <span class="keywordflow">if</span>(!alg_ptr) <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>(<span class="stringliteral">&quot;Invalid algorithm pointer!&quot;</span>);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keywordflow">if</span>(alg_ptr == _alg_v.front()) {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="namespacelarcv.html#a5ee5d70a7a6a661eefb7a8d3e8cf6627" title="A set of 2D contours. ">ContourArray_t</a> clusters;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.push_back(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a>);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.emplace_back(alg_ptr-&gt;Process(clusters,img,<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.back()));</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; clusters = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.back();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.push_back(<a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.emplace_back(alg_ptr-&gt;Process(clusters,img,<a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.back()));</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      <span class="comment">// Sanity check on meta data</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <span class="keyword">auto</span> <span class="keyword">const</span>&amp; result_meta = <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a4155c3b3b6637eb26256da9cabf2e684" title="Array of meta data: one per set of clusters (updated by each algorithm) ">_meta_v</a>.back();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;      <span class="keywordflow">if</span>(result_meta.height() &gt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a>.height()) {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Return meta data by &quot;</span> &lt;&lt; alg_ptr-&gt;Name() &lt;&lt; <span class="stringliteral">&quot; exceeds original image height!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>();</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;      }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;      <span class="keywordflow">if</span>(result_meta.width() &gt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ae391cc7d1e3535d448e5dab0b9c90424" title="Original meta data. ">_orig_meta</a>.width()) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Return meta data by &quot;</span> &lt;&lt; alg_ptr-&gt;Name() &lt;&lt; <span class="stringliteral">&quot; exceeds original image width!&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">throw</span> <a class="code" href="namespacelarcv.html#a10cb2ecf3c49e72c202b04abd60b9f9b">larbys</a>();</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;      }</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a3e2568cf3c404517e59f2859fb7d96f2" title="Process time (cumulative) ">_process_time</a> += <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a8407415aa03421c4ef9e5334b55be84d" title="Stopwatch. ">_watch</a>.<a class="code" href="classlarcv_1_1_watch.html#a0adff50cc7a6f434121f74dba59d4df1" title="Report wall-clock time [s] since Start() call. ">WallTime</a>();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    ++<a class="code" href="classlarcv_1_1_image_cluster_manager.html#acc2f435b13f8ec06b18490c758e14816" title="Process counter (cumulative) ">_process_count</a>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;end&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a52891942f4db6749d91ddcbc5a66ae4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void larcv::ImageClusterManager::Report </td>
+          <td>(</td>
+          <td class="paramname">)</td><td></td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Report process summary. </p>
+
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00099">99</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00077">_alg_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00091">_process_count</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00093">_process_time</a>, and <a class="el" href="_image_cluster_manager_8h_source.html#l00045">Name()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;  ================== &quot;</span> &lt;&lt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a608d8c79cebb4fca98b80ff194c066c6" title="Name accessor, used to identify a block of configuration parameters via fhicl. ">Name</a>() &lt;&lt; <span class="stringliteral">&quot; Profile Report ==================&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          &lt;&lt; <span class="stringliteral">&quot;  # Process call = &quot;</span> &lt;&lt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#acc2f435b13f8ec06b18490c758e14816" title="Process counter (cumulative) ">_process_count</a> &lt;&lt; <span class="stringliteral">&quot; ... Total time = &quot;</span> &lt;&lt; <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a3e2568cf3c404517e59f2859fb7d96f2" title="Process time (cumulative) ">_process_time</a> &lt;&lt; <span class="stringliteral">&quot; [s]&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">auto</span> <span class="keyword">const</span>&amp; ptr : <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>) {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      std::cout &lt;&lt; Form(<span class="stringliteral">&quot;  \033[93m%-20s\033[00m ... # call %-5zu ... total time %g [s] ... average time %g [s/process]&quot;</span>,</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            ptr-&gt;Name().c_str(), ptr-&gt;ProcessCount(), ptr-&gt;ProcessTime(), ptr-&gt;ProcessTime() / (double)(ptr-&gt;ProcessCount()))</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -617,18 +784,83 @@ Private Attributes</h2></td></tr>
 
 <p>Clears attributes except for _name. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00010">10</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8cxx_source.html#l00021">21</a> of file <a class="el" href="_image_cluster_manager_8cxx_source.html">ImageClusterManager.cxx</a>.</p>
 
-<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00074">_alg_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00076">_clusters_v</a>, and <a class="el" href="_image_cluster_manager_8h_source.html#l00072">_configured</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.clear();</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.clear();</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  }</div>
+<p>References <a class="el" href="_image_cluster_manager_8h_source.html#l00077">_alg_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00081">_clusters_v</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00075">_configured</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00091">_process_count</a>, <a class="el" href="_image_cluster_manager_8h_source.html#l00093">_process_time</a>, and <a class="el" href="laropencv__logger_8h_source.html#l00029">LARCV_DEBUG</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00010">ImageClusterManager()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;start&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a6cd2eda1bf2bb4b9b2d678187772f4aa" title="Boolean flag to enforce Configure method to be called before Process. ">_configured</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a5835a378511fb60dd208833b65d1ac8d" title="Array of algorithms to be executed. ">_alg_v</a>.clear();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#ac7f29ebec6f4ed6749a86f72bc47916c" title="Array of resulting clusters per algorithms. ">_clusters_v</a>.clear();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#acc2f435b13f8ec06b18490c758e14816" title="Process counter (cumulative) ">_process_count</a>=0;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="classlarcv_1_1_image_cluster_manager.html#a3e2568cf3c404517e59f2859fb7d96f2" title="Process time (cumulative) ">_process_time</a>=0;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>((*<span class="keyword">this</span>)) &lt;&lt; <span class="stringliteral">&quot;end&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7479ca74b91e80564cab0652df31b33a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void larcv::laropencv_base::set_verbosity </td>
+          <td>(</td>
+          <td class="paramtype">::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8">larcv::msg::Level_t</a>&#160;</td>
+          <td class="paramname"><em>level</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verbosity level. </p>
+
+<p>Definition at line <a class="el" href="laropencv__base_8h_source.html#l00047">47</a> of file <a class="el" href="laropencv__base_8h_source.html">laropencv_base.h</a>.</p>
+
+<p>References <a class="el" href="laropencv__base_8h_source.html#l00052">larcv::laropencv_base::_logger</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_base_8cxx_source.html#l00016">larcv::ImageClusterBase::Configure()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">Configure()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    { <a class="code" href="classlarcv_1_1laropencv__base.html#afc261b4e8c2902550d53cae14bdc71da" title="logger ">_logger</a>-&gt;set(level); }</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a7de83d39a7eebd5c6b9c1c1ee6f7de9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string,<a class="el" href="namespacelarcv.html#ab6d36f49a331161eb6f1a675a14e4ccd">larcv::AlgorithmID_t</a>&gt; larcv::ImageClusterManager::_alg_m</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map of algorithm instance name to ID. </p>
+
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00079">79</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">Configure()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00043">GetAlgID()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5835a378511fb60dd208833b65d1ac8d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -649,9 +881,9 @@ Private Attributes</h2></td></tr>
 
 <p>Array of algorithms to be executed. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00074">74</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00077">77</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00023">AddAlg()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00106">Clusters()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00031">Configure()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00017">GetAlg()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00045">Process()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00010">Reset()</a>.</p>
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">Configure()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00032">GetAlg()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">Process()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00099">Report()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00021">Reset()</a>.</p>
 
 </div>
 </div>
@@ -675,9 +907,9 @@ Private Attributes</h2></td></tr>
 
 <p>Array of resulting clusters per algorithms. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00076">76</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00081">81</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00113">ClusterID()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00106">Clusters()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00045">Process()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00010">Reset()</a>.</p>
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00188">ClusterID()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00181">Clusters()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">Process()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00021">Reset()</a>.</p>
 
 </div>
 </div>
@@ -701,9 +933,9 @@ Private Attributes</h2></td></tr>
 
 <p>Boolean flag to enforce Configure method to be called before Process. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00072">72</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00075">75</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00023">AddAlg()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00031">Configure()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00045">Process()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00010">Reset()</a>.</p>
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">Configure()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">Process()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00021">Reset()</a>.</p>
 
 </div>
 </div>
@@ -727,9 +959,9 @@ Private Attributes</h2></td></tr>
 
 <p>Array of meta data: one per set of clusters (updated by each algorithm) </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00078">78</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00083">83</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00113">ClusterID()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00092">MetaData()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00045">Process()</a>.</p>
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00188">ClusterID()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00167">MetaData()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">Process()</a>.</p>
 
 </div>
 </div>
@@ -753,9 +985,9 @@ Private Attributes</h2></td></tr>
 
 <p>Name identifier: used to fetch a block of configuration parameters. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00070">70</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00073">73</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_image_cluster_manager_8h_source.html#l00048">Name()</a>.</p>
+<p>Referenced by <a class="el" href="_image_cluster_manager_8h_source.html#l00045">Name()</a>.</p>
 
 </div>
 </div>
@@ -779,9 +1011,113 @@ Private Attributes</h2></td></tr>
 
 <p>Original meta data. </p>
 
-<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00080">80</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00085">85</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00045">Process()</a>.</p>
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">Process()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acc2f435b13f8ec06b18490c758e14816"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t larcv::ImageClusterManager::_process_count</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Process counter (cumulative) </p>
+
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00091">91</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">Process()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00099">Report()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00021">Reset()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e2568cf3c404517e59f2859fb7d96f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double larcv::ImageClusterManager::_process_time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Process time (cumulative) </p>
+
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00093">93</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">Process()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00099">Report()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00021">Reset()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a11e997c52f3225a739847efd6661ab72"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool larcv::ImageClusterManager::_profile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Boolean flag to measure process time + report. </p>
+
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00087">87</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">Configure()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8407415aa03421c4ef9e5334b55be84d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlarcv_1_1_watch.html">Watch</a> larcv::ImageClusterManager::_watch</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stopwatch. </p>
+
+<p>Definition at line <a class="el" href="_image_cluster_manager_8h_source.html#l00089">89</a> of file <a class="el" href="_image_cluster_manager_8h_source.html">ImageClusterManager.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">Process()</a>.</p>
 
 </div>
 </div>
@@ -792,7 +1128,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 26 2016 10:39:34 for LArOpenCV by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 27 2016 14:36:23 for LArOpenCV by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.4
 </small></address>

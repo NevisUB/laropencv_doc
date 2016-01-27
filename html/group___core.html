@@ -66,7 +66,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -78,7 +78,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#files">Files</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">Core</div>  </div>
 </div><!--header-->
@@ -89,6 +90,12 @@ Files</h2></td></tr>
 <tr class="memitem:_image_manager_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_image_manager_8h.html">ImageManager.h</a></td></tr>
 <tr class="memdesc:_image_manager_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class def header for a class ImageManager. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:laropencv__base_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="laropencv__base_8h.html">laropencv_base.h</a></td></tr>
+<tr class="memdesc:laropencv__base_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class definition file of laropencv_base. <br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:laropencv__logger_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="laropencv__logger_8h.html">laropencv_logger.h</a></td></tr>
+<tr class="memdesc:laropencv__logger_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiler macro def header for a larcv logger. <br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:_point2_d_array_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_point2_d_array_8h.html">Point2DArray.h</a></td></tr>
 <tr class="memdesc:_point2_d_array_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class def header for a 2D point array holder. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -98,12 +105,144 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacelarcv"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelarcv.html">larcv</a></td></tr>
 <tr class="memdesc:namespacelarcv"><td class="mdescLeft">&#160;</td><td class="mdescRight">C++ namespace for developping LArTPC software interface to OpenCV based algorithm tools (LArOpenCV) <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gac8ba71f2c61645890f97dac724b9f23f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#gac8ba71f2c61645890f97dac724b9f23f">LARCV_DEBUG</a>(obj)&#160;&#160;&#160;if(obj.logger().debug())    obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a6ca4f58e3fe0f891fda6404f9223ba81">larcaffe::msg::kDEBUG</a>,    __FUNCTION__,__LINE__,__FILE__)</td></tr>
+<tr class="separator:gac8ba71f2c61645890f97dac724b9f23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc8eb33de059641aab8cc0ad6c722424"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#gafc8eb33de059641aab8cc0ad6c722424">LARCV_INFO</a>(obj)&#160;&#160;&#160;if(obj.logger().info())     obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a19fcf9866b08e2f4f25bb572c4c9267e">larcaffe::msg::kINFO</a>,     __FUNCTION__,__LINE__         )</td></tr>
+<tr class="separator:gafc8eb33de059641aab8cc0ad6c722424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4431607e1e8d70fcef75f0e1014296d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#ga4431607e1e8d70fcef75f0e1014296d5">LARCV_NORMAL</a>(obj)&#160;&#160;&#160;if(obj.logger().normal())   obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a926cd6e12887ce07ade9979080876a65">larcaffe::msg::kNORMAL</a>,   __FUNCTION__                  )</td></tr>
+<tr class="separator:ga4431607e1e8d70fcef75f0e1014296d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7295a7fa22e8d9dea63a26c3dae20c9f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#ga7295a7fa22e8d9dea63a26c3dae20c9f">LARCV_WARNING</a>(obj)&#160;&#160;&#160;if(obj.logger().warning())  obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a00854076a5abf834bd4dc44db3b757ad">larcaffe::msg::kWARNING</a>,  __FUNCTION__                  )</td></tr>
+<tr class="separator:ga7295a7fa22e8d9dea63a26c3dae20c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaea3d28fac95996e5a7721b17c899d58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#gaaea3d28fac95996e5a7721b17c899d58">LARCV_ERROR</a>(obj)&#160;&#160;&#160;if(obj.logger().error())    obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a8452457493b8af3771e8f73ad6bb37c1">larcaffe::msg::kERROR</a>,    __FUNCTION__,__LINE__         )</td></tr>
+<tr class="separator:gaaea3d28fac95996e5a7721b17c899d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6f82c22bb96fb9eb53adb1ec7ced9f06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___core.html#ga6f82c22bb96fb9eb53adb1ec7ced9f06">LARCV_CRITICAL</a>(obj)&#160;&#160;&#160;obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a01216bac31c3277ada2529e964a1d8e2">larcaffe::msg::kCRITICAL</a>, __FUNCTION__,__LINE__,__FILE__)</td></tr>
+<tr class="separator:ga6f82c22bb96fb9eb53adb1ec7ced9f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="ga6f82c22bb96fb9eb53adb1ec7ced9f06"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LARCV_CRITICAL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">obj)</td><td></td>
+          <td>&#160;&#160;&#160;obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a01216bac31c3277ada2529e964a1d8e2">larcaffe::msg::kCRITICAL</a>, __FUNCTION__,__LINE__,__FILE__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="laropencv__logger_8h_source.html#l00034">34</a> of file <a class="el" href="laropencv__logger_8h_source.html">laropencv_logger.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">larcv::ImageClusterManager::Configure()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac8ba71f2c61645890f97dac724b9f23f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LARCV_DEBUG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">obj)</td><td></td>
+          <td>&#160;&#160;&#160;if(obj.logger().debug())    obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a6ca4f58e3fe0f891fda6404f9223ba81">larcaffe::msg::kDEBUG</a>,    __FUNCTION__,__LINE__,__FILE__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="laropencv__logger_8h_source.html#l00029">29</a> of file <a class="el" href="laropencv__logger_8h_source.html">laropencv_logger.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_base_8cxx_source.html#l00016">larcv::ImageClusterBase::Configure()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00060">larcv::ImageClusterManager::Configure()</a>, <a class="el" href="_image_cluster_base_8cxx_source.html#l00008">larcv::ImageClusterBase::ImageClusterBase()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00010">larcv::ImageClusterManager::ImageClusterManager()</a>, <a class="el" href="_image_cluster_manager_8cxx_source.html#l00112">larcv::ImageClusterManager::Process()</a>, and <a class="el" href="_image_cluster_manager_8cxx_source.html#l00021">larcv::ImageClusterManager::Reset()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaaea3d28fac95996e5a7721b17c899d58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LARCV_ERROR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">obj)</td><td></td>
+          <td>&#160;&#160;&#160;if(obj.logger().error())    obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a8452457493b8af3771e8f73ad6bb37c1">larcaffe::msg::kERROR</a>,    __FUNCTION__,__LINE__         )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="laropencv__logger_8h_source.html#l00033">33</a> of file <a class="el" href="laropencv__logger_8h_source.html">laropencv_logger.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_factory_8h_source.html#l00062">larcv::ImageClusterFactory::create()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gafc8eb33de059641aab8cc0ad6c722424"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LARCV_INFO</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">obj)</td><td></td>
+          <td>&#160;&#160;&#160;if(obj.logger().info())     obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a19fcf9866b08e2f4f25bb572c4c9267e">larcaffe::msg::kINFO</a>,     __FUNCTION__,__LINE__         )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="laropencv__logger_8h_source.html#l00030">30</a> of file <a class="el" href="laropencv__logger_8h_source.html">laropencv_logger.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga4431607e1e8d70fcef75f0e1014296d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LARCV_NORMAL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">obj)</td><td></td>
+          <td>&#160;&#160;&#160;if(obj.logger().normal())   obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a926cd6e12887ce07ade9979080876a65">larcaffe::msg::kNORMAL</a>,   __FUNCTION__                  )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="laropencv__logger_8h_source.html#l00031">31</a> of file <a class="el" href="laropencv__logger_8h_source.html">laropencv_logger.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga7295a7fa22e8d9dea63a26c3dae20c9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LARCV_WARNING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">obj)</td><td></td>
+          <td>&#160;&#160;&#160;if(obj.logger().warning())  obj.logger().send(::<a class="el" href="namespacelarcaffe_1_1msg.html#a93e861f07245687d48cd4e65a0d92dd8a00854076a5abf834bd4dc44db3b757ad">larcaffe::msg::kWARNING</a>,  __FUNCTION__                  )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="laropencv__logger_8h_source.html#l00032">32</a> of file <a class="el" href="laropencv__logger_8h_source.html">laropencv_logger.h</a>.</p>
+
+<p>Referenced by <a class="el" href="_image_cluster_factory_8h_source.html#l00051">larcv::ImageClusterFactory::ImageClusterFactory()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 26 2016 10:39:34 for LArOpenCV by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 27 2016 14:36:23 for LArOpenCV by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.4
 </small></address>

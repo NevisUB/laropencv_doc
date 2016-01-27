@@ -5,5 +5,7 @@ var searchData=
   ['toyimagecluster',['ToyImageCluster',['../classlarcv_1_1_toy_image_cluster.html',1,'larcv']]],
   ['toyimagecluster',['ToyImageCluster',['../classlarcv_1_1_toy_image_cluster.html#a8860e7d31e33674ec90c1a479856d4af',1,'larcv::ToyImageCluster']]],
   ['toyimagecluster_2ecxx',['ToyImageCluster.cxx',['../_toy_image_cluster_8cxx.html',1,'']]],
-  ['toyimagecluster_2eh',['ToyImageCluster.h',['../_toy_image_cluster_8h.html',1,'']]]
+  ['toyimagecluster_2eh',['ToyImageCluster.h',['../_toy_image_cluster_8h.html',1,'']]],
+  ['toyimageclusterfactory',['ToyImageClusterFactory',['../classlarcv_1_1_toy_image_cluster_factory.html#a99ad164f319ab02558295010ce465063',1,'larcv::ToyImageClusterFactory']]],
+  ['toyimageclusterfactory',['ToyImageClusterFactory',['../classlarcv_1_1_toy_image_cluster_factory.html',1,'larcv']]]
 ];

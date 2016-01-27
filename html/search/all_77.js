@@ -1,6 +1,7 @@
 var searchData=
 [
   ['walltime',['WallTime',['../classlarcv_1_1_watch.html#a0adff50cc7a6f434121f74dba59d4df1',1,'larcv::Watch']]],
+  ['warning',['warning',['../classlarcaffe_1_1logger.html#a546177dc27397703ecc37ff1a9db8234',1,'larcaffe::logger']]],
   ['watch',['Watch',['../classlarcv_1_1_watch.html#a6b90dbc86e8ea38a6bcaff8e050dc796',1,'larcv::Watch']]],
   ['watch',['Watch',['../classlarcv_1_1_watch.html',1,'larcv']]],
   ['watch_2eh',['Watch.h',['../_watch_8h.html',1,'']]],
